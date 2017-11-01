@@ -3,11 +3,12 @@ function ItunesController() {
   this.getMusic = function getMusic(e) {
     e.preventDefault();
     var artist = e.target.artist.value;
-    itunesService.getMusicByArtist(artist).then(draw);
+    itunesService.getMusicByArtist(artist).then(drawList);
   }
   //Start coding here
   function drawList() {
     var songList = itunesService[songList];
+    return songList
   }
 }
 document.addEventListener('play', function (e) {
@@ -18,5 +19,3 @@ document.addEventListener('play', function (e) {
     }
   }
 }, true);
-
-drawList()
