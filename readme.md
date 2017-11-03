@@ -68,3 +68,4 @@ Styling is a hard area to grade so at a bare minimum you will need to show your 
 
 ### Finished?
 When You are finished please submit the url for your github repo to be graded. You are free to work on this however you like but ultimately it needs to be added to your github.
+
