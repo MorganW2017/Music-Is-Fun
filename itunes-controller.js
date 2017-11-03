@@ -16,9 +16,8 @@ function ItunesController() {
       var albumArt = song.albumArt.replace('100x100bb', '500x500bb')
       var templates = {
         'song': ` 
-        <div class="col-sm-12 col-md-6 flex v-center h-center">
-        <div id="song-wrapper" class="song-wrapper panel panel-default text-center">
-        <div class="panel-body">
+        <div class="col-sm-8 col-md-3 flex">
+        <div id="song-wrapper" class="song-wrapper panel text-center">
         <img class="song-image" src="${albumArt}" alt="">
         <p class="song-title">${song.title}</p>
         <p class="artist-name">${song.artist}</p>
@@ -26,7 +25,6 @@ function ItunesController() {
         <audio src="${song.preview}" controls></audio>                    
         <p class="album-price">Album Price: 
         ${(song.currency === 'USD') ? ('$' + song.albumPrice) : (song.albumPrice + ' ' + song.currency)}</p>
-        </div>
         </div>
         </div>
       `}

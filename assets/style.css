@@ -1,21 +1,5 @@
-.background {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-}
-.background img{
-  max-width: 100%;
-}
 .flex {
   display: flex;
-}
-.flex.v-center {
-  align-items: center;
-}
-.flex.h-center {
-  justify-content: center;
 }
 .flex.h-left {
   justify-content: left;
@@ -27,10 +11,14 @@
   justify-content: space-between;
 }
 .header-row {
-  color: #fff;
+  background-image: url("https://www.evangelicalendtimemachine.com/wp-content/uploads/2015/08/music-notes1.jpg");
+  color: white;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .main-title {
-  font-size: 5em;
+  font-size: 120px;
   margin-bottom: 5vh;
 }
 .header-wrapper {
@@ -43,40 +31,37 @@
   border: 1px solid #ccc !important;
 }
 .songs-row {
+  max-width: 100%;
   min-height: 60vh;
+  background-image: url("https://orig00.deviantart.net/4bf3/f/2011/117/6/a/flow_of_music_wallpaper_by_djduzky-d3f0dij.jpg");
 }
-.songs-row-background-default {
-  background: #262626
+.panel {
+  background-color: rgba(72, 84, 206, 0.31);
 }
 .song-wrapper {
-  margin-top: 10px;
-  color: #fff;
-  height: 200px;
-  border-radius: 50%;
-}
-.song-wrapper-background-default {
-  background: #000;
+  margin: auto auto;
+  color: rgb(255, 0, 0);
 }
 .song-image {
-  width: 100px;
+  width: 125px;
   border: 2px solid #fff;
   border-radius: 50%;
   margin: 10px;
 }
 .song-title {
-  font-size: 1.2em;
+  font-size: 15px;
 }
 .artist-name {
-  font-size: 1.1em;
+  font-size: 13px;
 }
 .album-name {
-  font-size: 1em;
+  font-size: 11px;
 }
 .album-price {
-  font-size: 0.9em;
+  font-size: 9px;
 }
 .btn-main {
-  background: #000;
+  background: rgb(180, 36, 36);
   color: #fff;
   border: 2px solid #fff;
   border-radius: 2px;
@@ -85,16 +70,11 @@
   outline: none;
 }
 .btn-main:hover {
-  background: #333333;
+  background: #08b9ff;
   color: #fff;
 }
 audio {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-}
-video {
-  width: 250px;
-  max-width: 100%;
-  margin-bottom: 30px;
 }

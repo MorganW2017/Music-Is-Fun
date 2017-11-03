@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +7,18 @@
     <title>Songs.Get</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style.css">
-
 </head>
-
 <body>
     <div class="container-fluid">
         <div id='header-row' class="row header-row header-row-background-default text-center">
-            <div class="col-xs-offset-1 col-xs-10">
+            <div class="col-xs-offset-1 col-xs-12">
                 <div class="header-wrapper">
                     <h1 class="main-title">Songs.Get</h1>
                     <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
                         <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
                         <div class="form-group">
-                            <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
-                            <button type="submit" class="btn btn-main" id="get-music-button">Get Music</button>
+                            <input type="text" class="form-control" name="artist" placeholder="Artists.Get" />
+                            <button type="submit" class="btn btn-main" id="get-music-button">Music.Get</button>
                         </div>
                     </form>
                 </div>
@@ -34,7 +31,6 @@
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="itunes-service.js"></script>
     <script src="itunes-controller.js"></script>
